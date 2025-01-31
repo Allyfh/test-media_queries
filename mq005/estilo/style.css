@@ -20,8 +20,22 @@ header > h1{
     padding: 10px;
 }
 
+span#burger{
+    background-color: rgb(46, 46, 46);
+   display: block;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+}
+
+span#burger:hover{
+    background-color: white;
+    color: black;
+
+}
+
 nav{
-    display: block;
+    display: none;
   
 }
 
